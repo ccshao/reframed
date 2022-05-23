@@ -23,12 +23,10 @@ from .cobra.simulation import FBA, pFBA, FBrAtio, CAFBA, MOMA, lMOMA, ROOM
 from .cobra.thermodynamics import TFA, TVA, llFBA, NET
 from .cobra.medium import minimal_medium
 from .cobra.knockout import gene_knockout, hard_knockout, reaction_knockout, essential_genes, essential_reactions
-from .cobra.transcriptomics import GIMME, eFlux, marge
+from .cobra.transcriptomics import GIMME, eFlux, marge, gene_to_reaction_expression
 
 from .community.model import Community
 from .community.SteadyCom import SteadyCom, SteadyComVA
 
 from .external.escher import escher_maps, fluxes2escher
 from .external.cobrapy import to_cobrapy, from_cobrapy
-
-
